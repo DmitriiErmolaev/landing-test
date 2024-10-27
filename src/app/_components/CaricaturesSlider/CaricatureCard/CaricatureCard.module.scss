@@ -1,0 +1,47 @@
+.caricature-card {
+  flex:0 0 440px;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 1px 3px 0px #B0B0B01A,
+    0px 5px 5px 0px #c7838317,
+    0px 10px 6px 0px #B0B0B00D,
+    0px 18px 7px 0px #B0B0B003,
+    0px 29px 8px 0px #B0B0B000;
+
+  padding: 24px 12px;
+  width: 440px;
+  height: 532px;
+
+  .caricature-card__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .caricature-card__chip {
+      font-size: 12px;
+      font-weight: 600;
+      text-align: left;
+      padding: 2px 4px;
+      align-self: flex-start;
+      color: #fff;
+    }
+
+    .caricature-card__title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .caricature-card__description {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.caricature-card_odd {
+  .caricature-card__chip {
+    background: linear-gradient(90deg, #1E4879 0%, #367ABD 100%);
+  }
+}
+.caricature-card_even {
+  .caricature-card__chip {
+    background: linear-gradient(90deg, #DF3735 0%, #902423 100%);
+  }
+}

@@ -1,0 +1,15 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+
+  .slider-list {
+    display: flex;
+    gap: 22px;
+    transition: 0.3s ease-out;
+  }
+  .slider-buttons {
+    display: flex;
+    gap: 22px;
+  }
+}

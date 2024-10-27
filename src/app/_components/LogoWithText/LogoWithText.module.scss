@@ -1,0 +1,10 @@
+.logo-with-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+  .logo-with-text__text {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
